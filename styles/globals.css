@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: calc(100%);
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: black;
+  scroll-behavior: smooth;
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body.no-scroll {
+  overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 1em;
+  height: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 100vw;
+  border: 0.1em solid white;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d87d4a;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fbaf85;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 24px 0;
+  opacity: 0.75;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.featured-product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 120px;
+  padding: 0 24px;
+  padding-top: 55px;
+  border-radius: 8px;
+  background-color: #d87d4a;
+  background-image: url("/images/pattern-circles.svg");
+  background-position: 50% -8.125rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .featured-product {
+    background-position: 50% -16.125rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .featured-product {
+    background-position: -205px -2rem;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply py-[16px] px-[32px]
+    font-bold text-[13px] text-[white] leading-[18px] tracking-[1px] uppercase;
+  }
+
+  .btn.orange {
+    @apply bg-[#D87D4A] enabled:hover:bg-[#FBAF85] disabled:bg-[#FBAf85]/40;
+  }
+
+  .btn.black {
+    @apply text-[white] bg-[black] hover:bg-[transparent] 
+    hover:text-[black] hover:border-[1px] enabled:hover:border-black;
+  }
+
+  .btn.transparent {
+    @apply border-[1px] border-[black] text-[black] 
+    enabled:hover:bg-black enabled:hover:text-white;
+  }
+}
