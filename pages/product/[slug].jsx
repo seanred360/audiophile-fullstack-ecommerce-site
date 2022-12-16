@@ -57,6 +57,7 @@ const SectionBanner = ({ productData }) => {
         <img
           className="w-full md:w-[327px] lg:w-[450px]"
           src={urlFor(productData.image.mobile).url()}
+          alt="product"
         />
       </picture>
 

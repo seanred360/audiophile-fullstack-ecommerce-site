@@ -29,6 +29,7 @@ const SectionSuggestions = ({ suggestedProducts }) => {
                 src={urlFor(product.suggestedImage.mobile).height(120).url()}
                 width="327"
                 height="120"
+                alt="product"
               />
             </picture>
             <span className="h-[72px] my-[32px] font-bold text-[24px] tracking-[1.71px] text-center">

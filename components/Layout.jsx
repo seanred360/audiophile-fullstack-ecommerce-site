@@ -255,7 +255,10 @@ const Footer = ({ paths }) => {
 
           <ul className="md:flex md:mr-auto lg:mr-0 text-[13px] text-bold tracking-[2px] text-center">
             {paths.map((path) => (
-              <li className="mb-[16px] md:mb-0 md:mr-[32px] hover:text-burntOrange cursor-pointer uppercase">
+              <li
+                key={"footer link" + path}
+                className="mb-[16px] md:mb-0 md:mr-[32px] hover:text-burntOrange cursor-pointer uppercase"
+              >
                 {path}
               </li>
             ))}

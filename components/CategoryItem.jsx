@@ -20,6 +20,7 @@ const CategoryItem = ({
             src={imgMobile}
             width="327"
             height="352"
+            alt="product"
           />
         </picture>
       </div>
