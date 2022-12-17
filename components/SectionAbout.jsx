@@ -5,15 +5,15 @@ const SectionAbout = () => {
         <picture>
           <source
             media="(min-width: 992px)"
-            srcSet="/images/shared/desktop/image-best-gear.jpg"
+            srcSet="/images/desktop/image-best-gear.jpg"
           />
           <source
             media="(min-width: 768px)"
-            srcSet="/images/shared/tablet/image-best-gear.jpg"
+            srcSet="/images/tablet/image-best-gear.jpg"
           />
           <img
             className="w-full object-cover"
-            src="/images/shared/mobile/image-best-gear.jpg"
+            src="/images/mobile/image-best-gear.jpg"
             alt="zx7 speaker"
           />
         </picture>
