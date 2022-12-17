@@ -152,7 +152,7 @@ const ModalCart = () => {
       quantity: item.quantity,
     }));
 
-    fetch("http://localhost:3000/api/checkout_sessions", {
+    fetch("/api/checkout_sessions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
