@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Screenshots
 
-https://user-images.githubusercontent.com/41050673/192324426-3102e396-9f2b-499f-ba3b-7fd389c29d79.mp4
+![audiophile-demo](https://user-images.githubusercontent.com/41050673/192324426-3102e396-9f2b-499f-ba3b-7fd389c29d79.mp4)
 ![audiophile-mockup-desktop](https://user-images.githubusercontent.com/41050673/213816934-b3e0fb18-b6d6-4558-9f2e-bd82626ba99a.jpg)
 ![audiophile-checkout](https://user-images.githubusercontent.com/41050673/213816941-4b897498-bc76-4f5d-8791-67d3139fd956.jpg)
 
