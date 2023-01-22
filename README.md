@@ -9,8 +9,6 @@
   - [Built with](#built-with)
   - [Screenshots](#screenshots)
   - [Links](#links)
-  
-  
 
 ## Overview
 
@@ -36,7 +34,6 @@ Users should be able to:
 ![audiophile-mockup-desktop](https://user-images.githubusercontent.com/41050673/213816934-b3e0fb18-b6d6-4558-9f2e-bd82626ba99a.jpg)
 ![audiophile-checkout](https://user-images.githubusercontent.com/41050673/213816941-4b897498-bc76-4f5d-8791-67d3139fd956.jpg)
 
-
 ### Links
 
-[See the live site here](https://clamr.netlify.app/)
+[See the live site here](https://audiophilestore.netlify.app/)
