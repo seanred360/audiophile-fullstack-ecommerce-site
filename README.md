@@ -1,4 +1,4 @@
-# Clamr
+# Audiophile Peripherals
 
 ![Audiophile](./github/logo.png)
 
