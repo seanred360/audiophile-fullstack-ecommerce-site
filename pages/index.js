@@ -27,21 +27,19 @@ export default function Home() {
 
 const SectionBanner = () => {
   return (
-    <section className="relative mx-auto text-[white] overflow-hidden mb-[96px]">
-      <div className="w-screen bg-smoke">
-        <div className="relative">
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              srcSet="/images/desktop/image-hero.jpg"
-            />
-            <source
-              media="(min-width: 768px)"
-              srcSet="/images/tablet/image-header.jpg"
-            />
-            <img src="images/mobile/image-header.jpg" alt="banner" />
-          </picture>
-        </div>
+    <section className="relative mx-auto text-[white] overflow-hidden mb-[96px] w-screen bg-smoke">
+      <div className="relative">
+        <picture>
+          <source
+            media="(min-width: 992px)"
+            srcSet="/images/desktop/image-hero.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcSet="/images/tablet/image-header.jpg"
+          />
+          <img src="images/mobile/image-header.jpg" alt="banner" />
+        </picture>
       </div>
 
       <div className="absolute z-[1] w-full h-[720px]">
